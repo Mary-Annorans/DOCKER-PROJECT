@@ -1,0 +1,43 @@
+# Environment files
+.env
+.env.*
+*.env
+
+# Node.js
+node_modules/
+*/node_modules/
+*/build/
+*/.cache/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+.venv/
+venv/
+env/
+ENV/
+
+# Logs
+*.log
+logs/
+
+# OS files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# IDE/editor
+.vscode/
+.idea/
+*.sublime-*
+
+# Docker
+.dockerignore
+
+# Temporary files
+*.tmp
+*.temp
